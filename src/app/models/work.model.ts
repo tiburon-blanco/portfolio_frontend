@@ -1,6 +1,6 @@
 export interface WorkModel {
     id: number;
-    title: string;
-    urlImage: string;
-    description: string;
+    title: String;
+    urlImage: String;
+    description: String;
 }

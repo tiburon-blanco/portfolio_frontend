@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent {
-  name: string = 'imagen representativa del baner';
-  urlImg: string = 'http://www.sanmartindelosandes.gov.ar/imgs/enc/pri_6.jpg';
+  name: string = '';
+  urlImg: string = 'https://martinantolini.com.ar/wp-content/uploads/2022/05/Logo-completo-2.png';
   photo: string = `url('${this.urlImg}')`;
 }
